@@ -53,11 +53,14 @@ Contém a interface principal da aplicação e a classe sobre o projeto.
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
 
-src/
-├── model/
+/src
+│
+├── /model
 │   └── DAO.java              # Classe responsável pela conexão com o banco de dados MySQL e execução de operações CRUD
-├── util/
+│
+├── /util
 │   └── Validador.java        # Classe contendo métodos para validação de campos específicos
-└── view/
+│
+└── /view
     ├── Carometro.java        # Classe representando a aplicação principal, interface de interação com o usuário
     └── Sobre.java            # Classe com informações sobre o projeto, autor e licença
