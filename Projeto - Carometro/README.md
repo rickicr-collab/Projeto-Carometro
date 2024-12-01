@@ -47,6 +47,13 @@ Contém a interface principal da aplicação e a classe sobre o projeto.
 2. Java 8 ou superior instalado.
 3. Dependências do MySQL para Java (JDBC) incluídas no projeto.
 
+##Configure o Banco de Dados:
+1. Nome do Banco de Dados O banco de dados utilizado neste projeto é o bdcarometro, mas você pode criar o seu próprio banco de dados com o nome que preferir.
+2. No código-fonte Java, dentro da classe DAO.java, você deve configurar a URL do banco de dados, o usuário e a senha para a conexão.
+3. O nome do banco de dados é bdcarometro, mas você pode alterar o nome do banco conforme sua preferência. A senha do banco está configurada como vazia no código, mas você deve definir sua própria senha ao instalar e configurar o MySQL.
+4. 
+
+
 ### Passos para Execução
 
 1. **Clone o Repositório**:
@@ -55,9 +62,11 @@ Contém a interface principal da aplicação e a classe sobre o projeto.
 
 ###Estruturas das Tabelas no Banco de Dados MySQL
 
-O banco de dados MySQL  tabela principal para o armazenamento dos dados:
+O banco de dados MySQL e tabela principal para o armazenamento dos dados:
 
 ```sql
+CREATE DATABASE bdcarometro;
+
 CREATE TABLE alunos (
     ra INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(30) NOT NULL,
