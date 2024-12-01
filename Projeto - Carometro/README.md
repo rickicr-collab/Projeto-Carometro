@@ -53,6 +53,18 @@ Contém a interface principal da aplicação e a classe sobre o projeto.
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
 
+###Estruturas das Tabelas no Banco de Dados MySQL
+
+O banco de dados MySQL  tabela principal para o armazenamento dos dados:
+
+```sql
+CREATE TABLE alunos (
+    ra INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(30) NOT NULL,
+    foto LONGBLOB NOT NULL
+);
+
+
 /src
 │
 ├── /model
@@ -64,3 +76,6 @@ Contém a interface principal da aplicação e a classe sobre o projeto.
 └── /view
     ├── Carometro.java        # Classe representando a aplicação principal, interface de interação com o usuário
     └── Sobre.java            # Classe com informações sobre o projeto, autor e licença
+
+
+
