@@ -31,12 +31,6 @@ Contribuições são bem-vindas! Se você deseja contribuir com um novo projeto,
 - Se possível, adicione explicações ou links que ajudem na compreensão do código.
 - Sinta-se à vontade para compartilhar dúvidas ou soluções de problemas!
 
-## Estrutura do Repositório
-
-Este repositório é organizado de maneira simples, sem necessidade de separação por níveis de dificuldade. Você pode adicionar seu projeto diretamente na pasta de **Projetos**, e deve descrevê-lo claramente na documentação.
-```sql
-. ├── Projetos/ │ ├── Nome-do-Projeto/ │ │ ├── src/ │ │ ├── README.md │ │ └── outros-arquivos ├── Exemplos/ ├── Documentação/ └── README.md
-
 
 - **/Projetos/**: Aqui você pode adicionar seus projetos Java. Cada projeto pode ter sua própria pasta e um arquivo `README.md` explicando o funcionamento.
 - **/Exemplos/**: Exemplos de código simples para problemas comuns em Java, como algoritmos e estruturas de dados.
@@ -80,6 +74,13 @@ Agradecemos a todos os colaboradores que ajudam a tornar este repositório um am
 ---
 
 Sinta-se à vontade para explorar, aprender e contribuir. Juntos, podemos criar um espaço de aprendizado colaborativo para todos!
+
+## Estrutura do Repositório
+
+Este repositório é organizado de maneira simples, sem necessidade de separação por níveis de dificuldade. Você pode adicionar seu projeto diretamente na pasta de **Projetos**, e deve descrevê-lo claramente na documentação.
+```
+
+. ├── Projetos/ │ ├── Nome-do-Projeto/ │ │ ├── src/ │ │ ├── README.md │ │ └── outros-arquivos ├── Exemplos/ ├── Documentação/ └── README.md
 
 **Boa codificação!**
 
