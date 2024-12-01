@@ -78,9 +78,10 @@ Sinta-se à vontade para explorar, aprender e contribuir. Juntos, podemos criar 
 ## Estrutura do Repositório
 
 Este repositório é organizado de maneira simples, sem necessidade de separação por níveis de dificuldade. Você pode adicionar seu projeto diretamente na pasta de **Projetos**, e deve descrevê-lo claramente na documentação.
-```
 
-. ├── Projetos/ │ ├── Nome-do-Projeto/ │ │ ├── src/ │ │ ├── README.md │ │ └── outros-arquivos ├── Exemplos/ ├── Documentação/ └── README.md
+```sql
+
+├── Projetos/ │ ├── Nome-do-Projeto/ │ │ ├── src/ │ │ ├── README.md │ │ └── outros-arquivos ├── Exemplos/ ├── Documentação/ └── README.md
 
 **Boa codificação!**
 
