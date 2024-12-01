@@ -34,6 +34,7 @@ Contribuições são bem-vindas! Se você deseja contribuir com um novo projeto,
 ## Estrutura do Repositório
 
 Este repositório é organizado de maneira simples, sem necessidade de separação por níveis de dificuldade. Você pode adicionar seu projeto diretamente na pasta de **Projetos**, e deve descrevê-lo claramente na documentação.
+```sql
 . ├── Projetos/ │ ├── Nome-do-Projeto/ │ │ ├── src/ │ │ ├── README.md │ │ └── outros-arquivos ├── Exemplos/ ├── Documentação/ └── README.md
 
 
