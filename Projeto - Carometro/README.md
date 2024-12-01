@@ -2,6 +2,9 @@
 
 **Carômetro** é um projeto que combina o armazenamento e a visualização de imagens associadas a nomes, usando um banco de dados MySQL. O sistema permite que os usuários editem registros de forma simples e intuitiva por meio de uma interface gráfica desenvolvida com a biblioteca Swing do Java. O projeto fornece uma plataforma fácil de usar para gerenciar e visualizar imagens vinculadas a nomes e informações associadas.
 
+## tela do aplicativo
+![Tela do Aplicativo](assets/tela-app.jpg)
+
 ## Funcionalidades
 
 - **Cadastro de imagens e nomes**: O sistema permite armazenar imagens associadas a nomes em um banco de dados MySQL.
