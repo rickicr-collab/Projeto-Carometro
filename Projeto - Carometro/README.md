@@ -65,17 +65,20 @@ CREATE TABLE alunos (
 );
 
 
-/src
+/Projeto-Carometro
 │
-├── /model
-│   └── DAO.java              # Classe responsável pela conexão com o banco de dados MySQL e execução de operações CRUD
+├── /src
+│   ├── /model
+│   │   └── DAO.java              # Classe responsável pela conexão com o banco de dados MySQL e execução de operações CRUD
+│   │
+│   ├── /util
+│   │   └── Validador.java        # Classe contendo métodos para validação de campos específicos
+│   │
+│   └── /view
+│       ├── Carometro.java        # Classe representando a aplicação principal, interface de interação com o usuário
+│       └── Sobre.java            # Classe com informações sobre o projeto, autor e licença
 │
-├── /util
-│   └── Validador.java        # Classe contendo métodos para validação de campos específicos
-│
-└── /view
-    ├── Carometro.java        # Classe representando a aplicação principal, interface de interação com o usuário
-    └── Sobre.java            # Classe com informações sobre o projeto, autor e licença
+└── README.md                    # Arquivo contendo informações sobre o projeto
 
 
 
