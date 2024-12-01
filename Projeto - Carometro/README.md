@@ -51,7 +51,6 @@ Contém a interface principal da aplicação e a classe sobre o projeto.
 1. Nome do Banco de Dados O banco de dados utilizado neste projeto é o bdcarometro, mas você pode criar o seu próprio banco de dados com o nome que preferir.
 2. No código-fonte Java, dentro da classe DAO.java, você deve configurar a URL do banco de dados, o usuário e a senha para a conexão.
 3. O nome do banco de dados é bdcarometro, mas você pode alterar o nome do banco conforme sua preferência. A senha do banco está configurada como vazia no código, mas você deve definir sua própria senha ao instalar e configurar o MySQL.
-4. 
 
 
 ### Passos para Execução
