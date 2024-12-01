@@ -40,6 +40,9 @@ Contém a interface principal da aplicação e a classe sobre o projeto.
 
 - **Validação de Campos**: Antes de inserir ou atualizar os dados, o sistema valida campos específicos, como e-mails e nomes, para garantir que estejam corretos.
 
+- **Gerador de PDF**: Este projeto utiliza a biblioteca externa **iText** para gerar relatórios em PDF com base nas informações armazenadas em uma tabela do banco de dados. A tabela contém os seguintes campos:
+
+
 ## Como Executar o Projeto
 
 ### Pré-requisitos
