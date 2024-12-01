@@ -79,10 +79,30 @@ Sinta-se à vontade para explorar, aprender e contribuir. Juntos, podemos criar 
 
 Este repositório é organizado de maneira simples, sem necessidade de separação por níveis de dificuldade. Você pode adicionar seu projeto diretamente na pasta de **Projetos**, e deve descrevê-lo claramente na documentação.
 
+
+# Estrutura do Repositório
+
+Este repositório contém diversos projetos organizados de forma modular. Cada projeto está estruturado em seu próprio diretório, com subdiretórios para código-fonte, documentação e recursos adicionais.
+
 ```sql
+## Estrutura Geral
 
-├── Projetos/ │ ├── Nome-do-Projeto/ │ │ ├── src/ │ │ ├── README.md │ │ └── outros-arquivos ├── Exemplos/ ├── Documentação/ └── README.md
-
-**Boa codificação!**
-
+```plaintext
+📂 RepositorioUnico
+├── 📂 Projeto1
+│   ├── 📂 src                # Código-fonte do projeto
+│   ├── 📂 docs               # Documentação do projeto
+│   ├── 📂 resources          # Recursos adicionais (ex.: imagens, dados)
+│   └── README.md             # Detalhes sobre o Projeto1
+├── 📂 Projeto2
+│   ├── 📂 src
+│   ├── 📂 docs
+│   ├── 📂 resources
+│   └── README.md
+├── 📂 ProjetoN
+│   ├── 📂 src
+│   ├── 📂 docs
+│   ├── 📂 resources
+│   └── README.md
+└── README.md                 # Descrição geral do repositório
 
