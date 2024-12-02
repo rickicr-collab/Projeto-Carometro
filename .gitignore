@@ -1,0 +1,53 @@
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Java dependency directories
+/.mvn/
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+
+# VSCode
+.vscode/
+
+# Build directories
+build/
+out/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Java Web Tools Project
+*.war
+*.ear
+
+# JAR files
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+target/
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
